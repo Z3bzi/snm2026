@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/tbbzcmdz/public_html
+    - /bin/cp -R index.html informasjon.html paamelding.html overnatting.html kontakt.html $DEPLOYPATH/
+    - /bin/cp -R css images files $DEPLOYPATH/
